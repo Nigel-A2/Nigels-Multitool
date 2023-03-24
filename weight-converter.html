@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Weight Unit Converter</title>
+	<link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+        <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		<h1>Weight Unit Converter</h1>
+		<form>
+			<label for="from_unit">From</label>
+			<select id="from_unit">
+				<option value="g">Gram (g)</option>
+				<option value="mg">Milligram (mg)</option>
+				<option value="kg">Kilogram</option>
+				<option value="oz">Ounce (oz)</option>
+				<option value="lb">Pound (lb)</option>
+				<option value="st">Stone (st)</option>
+				<option value="short_ton">Short Ton</option>
+                <option value="long_ton">Long Ton</option>
+				<option value="mtu">Metric ton</option>
+			</select>
+			<label for="to_unit">To</label>
+			<select id="to_unit">
+				<option value="g">Gram (g)</option>
+				<option value="mg">Milligram (mg)</option>
+				<option value="kg">Kilogram</option>
+				<option value="oz">Ounce (oz)</option>
+				<option value="lb">Pound (lb)</option>
+				<option value="st">Stone (st)</option>
+				<option value="short_ton">Short Ton</option>
+                <option value="long_ton">Long Ton</option>
+				<option value="mtu">Metric Ton</option>
+			</select>
+		</form>
+		<input type="number" id="input_value" placeholder="Enter Value">
+		<button type="button" onclick="convert()">Convert</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="./js/weight-converter.js"></script>
+</body>
+</html>

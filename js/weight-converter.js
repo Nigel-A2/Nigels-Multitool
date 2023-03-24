@@ -4,16 +4,20 @@ function convert() {
 	var from_unit = document.getElementById("from_unit").value;
 	var to_unit = document.getElementById("to_unit").value;
 
-	// Values of each unit. Meters are the default
+    // 1 ounce converted to grams
+    const imperial = 28.34952;
+
+	// Values of each unit. Grams are the default
 	var units = {
-		m: 1,
-		km: 1000,
-		cm: 0.01,
-		mm: 0.001,
-		mi: 1609.344,
-		yd: 0.9144,
-		ft: 0.3048,
-		in: 0.0254
+		g: 1,
+		mg: 0.001,
+		kg: 1000,
+		oz: imperial,
+		lb: imperial * 16,
+		st: imperial * 224,
+        long_ton: imperial * 35840,
+		short_ton: imperial * 32000,
+		mtu: 1000000
 	};
     // Convert units
 	var result = (input_value * units[from_unit]) / units[to_unit];
