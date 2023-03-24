@@ -13,7 +13,8 @@ function convert() {
 		mi: 1609.344,
 		yd: 0.9144,
 		ft: 0.3048,
-		in: 0.0254
+		in: 0.0254,
+        nmi: 1852
 	};
     // Convert units
 	var result = (input_value * units[from_unit]) / units[to_unit];
