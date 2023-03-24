@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/temperature-converter.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		    <h1>Temperature Converter</h1>
+            <br />
+            <h2>Celsius to Fahrenheit</h2>
+            <p>
+                <label>Celsius</label>
+                <input id="inputCelsius" type="number" placeholder="Temperature in Celsius" oninput="ConvertToFahrenheit(this.value)" onchange="ConvertToFahrenheit(this.value)">
+            </p>
+            <p>Temperature in Fahrenheit: <span id="outputFahrenheit"></span></p>
+            <h2>Fahrenheit to Celsius</h2>
+            <p>
+                <label>Fahrenheit:</label>
+                <input id="inputFahrenheit" type="number" placeholder="Temperature in Fahrenheit" oninput="ConvertToCelsius(this.value)" onchange="ConvertToCelsius(this.value)">
+            </p>
+            <p>Temperature in Celsius: <span id="outputCelsius"></span></p>
+        </div>
+    </body>
+</html>
