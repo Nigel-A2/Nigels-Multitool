@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Length Unit Converter</title>
+	<link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+</head>
+<body>
+	<div class="container">
+        <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		<h1>Length Unit Converter</h1>
+		<form>
+			<label for="from_unit">From</label>
+			<select id="from_unit">
+				<option value="m">Meter (m)</option>
+				<option value="km">Kilometer (km)</option>
+				<option value="cm">Centimeter (cm)</option>
+				<option value="mm">Millimeter (mm)</option>
+				<option value="mi">Mile (mi)</option>
+				<option value="yd">Yard (yd)</option>
+				<option value="ft">Foot (ft)</option>
+				<option value="in">Inch (in)</option>
+			</select>
+			<label for="to_unit">To</label>
+			<select id="to_unit">
+				<option value="m">Meter (m)</option>
+				<option value="km">Kilometer (km)</option>
+				<option value="cm">Centimeter (cm)</option>
+				<option value="mm">Millimeter (mm)</option>
+				<option value="mi">Mile (mi)</option>
+				<option value="yd">Yard (yd)</option>
+				<option value="ft">Foot (ft)</option>
+				<option value="in">Inch (in)</option>
+			</select>
+		</form>
+		<input type="number" id="input_value" placeholder="Enter Value">
+		<button type="button" onclick="convert()">Convert</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="./js/length-converter.js"></script>
+</body>
+</html>

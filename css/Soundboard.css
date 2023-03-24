@@ -1,5 +1,6 @@
 body {
-    background-color: #8d8d8d;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,5 +11,9 @@ body {
 button {
     width: 120px;
     height: 60px;
-    background-color: blue;
+    background-color: #4CAF50;
+}
+
+button:hover {
+	background-color: #3e8e41;
 }
