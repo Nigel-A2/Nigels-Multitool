@@ -20,5 +20,5 @@ function convert() {
 	var result = (input_value * units[from_unit]) / units[to_unit];
 
 	// Display result to the nearest hundredth
-	document.getElementById("result").innerHTML = input_value + " " + from_unit + " = " + result.toFixed(2) + " " + to_unit;
+	document.getElementById("result").innerHTML = input_value + " " + from_unit + " = " + result.toFixed(3) + " " + to_unit;
 }
