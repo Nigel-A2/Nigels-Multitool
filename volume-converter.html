@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Volume Unit Converter</title>
+	<link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+        <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		<h1>Volume Unit Converter</h1>
+		<form>
+			<label for="from_unit">From</label>
+			<select id="from_unit">
+                <!--Metric-->
+				<option value="L">Liter (L)</option>
+				<option value="mL">Milliliter (mL)</option>
+                <option value="cL">Centiliter (cL)</option>
+                <option value="dL">Deciliter (dL)</option>
+                <option value="daL">Decaliter (daL)</option>
+                <option value="hL">Hectoliter (hL)</option>
+                <!--US units-->
+				<option value="usgal">Gallon (US)</option>
+				<option value="uspt">Pint (US)</option>
+				<option value="usqt">Quart (US)</option>
+				<option value="uscupC">Cup (US Customary)</option>
+				<option value="uscupL">Cup (US Legal)</option>
+				<option value="ustsp">Teaspoon (US)</option>
+				<option value="ustbsp">Tablespoon (US)</option>
+                <option value="usfloz">Fluid Ounce (US)</option>
+                <option value="beerbarrel">Beerbarrel</option>
+                <option value="oilbarrel">Oilbarrel</option>
+                <option value="fldr">Fluid Dram</option>
+                <option value="drop">Drop</option>
+                <option value="gill">Gill</option>
+                <option value="minim">Minim</option>
+                <option value="hhd">Hogshead</option>
+                <!--Imperial/UK units-->
+                <option value="impgal">Gallon (Imperial)</option>
+				<option value="imppt">Pint (Imperial)</option>
+				<option value="impqt">Quart (Imperial)</option>
+				<option value="impcup">Cup (Imperial)</option>
+				<option value="imptsp">Teaspoon (Imperial)</option>
+				<option value="imptbsp">Tablespoon (Imperial)</option>
+                <option value="impfloz">Fluid Ounce (Imperial)</option>
+                <!--Cubic units-->
+                <option value="cm3">Cubic Centimeter (cm3)</option>
+				<option value="m3">Cubic Meter (m3)</option>
+				<option value="in3">Cubic Inch (in3)</option>
+                <option value="ft3">Cubic Foot (ft3)</option>
+                <option value="yd3">Cubic Yard (yd3)</option>
+			</select>
+			<label for="to_unit">To</label>
+			<select id="to_unit">
+				<!--Metric-->
+				<option value="L">Liter (L)</option>
+				<option value="mL">Milliliter (mL)</option>
+                <option value="cL">Centiliter (cL)</option>
+                <option value="dL">Deciliter (dL)</option>
+                <option value="daL">Decaliter (daL)</option>
+                <option value="hL">Hectoliter (hL)</option>
+                <!--US units-->
+				<option value="usgal">Gallon (US)</option>
+				<option value="uspt">Pint (US)</option>
+				<option value="usqt">Quart (US)</option>
+				<option value="uscupC">Cup (US Customary)</option>
+				<option value="uscupL">Cup (US Legal)</option>
+				<option value="ustsp">Teaspoon (US)</option>
+				<option value="ustbsp">Tablespoon (US)</option>
+                <option value="usfloz">Fluid Ounce (US)</option>
+                <option value="beerbarrel">Beerbarrel</option>
+                <option value="oilbarrel">Oilbarrel</option>
+                <option value="fldr">Fluid Dram</option>
+                <option value="drop">Drop</option>
+                <option value="gill">Gill</option>
+                <option value="minim">Minim</option>
+                <option value="hhd">Hogshead</option>
+                <!--Imperial/UK units-->
+                <option value="impgal">Gallon (Imperial)</option>
+				<option value="imppt">Pint (Imperial)</option>
+				<option value="impqt">Quart (Imperial)</option>
+				<option value="impcup">Cup (Imperial)</option>
+				<option value="imptsp">Teaspoon (Imperial)</option>
+				<option value="imptbsp">Tablespoon (Imperial)</option>
+                <option value="impfloz">Fluid Ounce (Imperial)</option>
+                <!--Cubic units-->
+                <option value="cm3">Cubic Centimeter (cm3)</option>
+				<option value="m3">Cubic Meter (m3)</option>
+				<option value="in3">Cubic Inch (in3)</option>
+                <option value="ft3">Cubic Foot (ft3)</option>
+                <option value="yd3">Cubic Yard (yd3)</option>
+			</select>
+		</form>
+		<input type="number" id="input_value" placeholder="Enter Value">
+		<button type="button" onclick="convert()">Convert</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="./js/volume-converter.js"></script>
+</body>
+</html>
