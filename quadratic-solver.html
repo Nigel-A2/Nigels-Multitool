@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quadratic equation solver</title>
+        <link rel="icon" type="image/x-icon" href="./images/equation-ico.png">
+        <link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+        <link rel="stylesheet" type="text/css" href="./css/quadratic-solver.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		    <h1>Quadratic equation solver</h1>
+            <h2>ax<sup>2</sup> + bx + c</h2>
+            <label for="a-value">a:</label>
+            <input type="number" id="a-value" placeholder="Enter value">
+            <br /><br />
+            <label for="b-value">b:</label>
+            <input type="number" id="b-value" placeholder="Enter value">
+            <br /><br />
+            <label for="c-value">c:</label>
+            <input type="number" id="c-value" placeholder="Enter value">
+            <br /><br />
+            <button type="button" onclick="solve()">Solve</button>
+            <br /><br />
+		    <div id="solution-1"></div>
+            <br /><br />
+            <div id="solution-2"></div>
+            <script src="./js/quadratic-solver.js"></script>
+        </div>
+    </body>
+</html>
