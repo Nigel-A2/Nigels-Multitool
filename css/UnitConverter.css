@@ -13,6 +13,7 @@ body {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	box-shadow: 0 0 10px #ccc;
+	/*I have to use this image to prevent the page-specific background from disrupting the UI*/
 	background-image: url(../images/white.jpg);
 }
 
