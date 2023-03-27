@@ -1,5 +1,5 @@
 # Nigel's Multitool
-Multiple different tools useful for everyday life all in one easy-to-use website  
+Many useful tools all in one easy-to-use website  
 
 
 [My portfolio](https://nigeloosd.github.io/)  
@@ -9,5 +9,7 @@ Multiple different tools useful for everyday life all in one easy-to-use website
 [Temperature converter](https://nigeloosd.github.io/Nigels-Multitool/temperature-converter.html)  
 [Weight converter](https://nigeloosd.github.io/Nigels-Multitool/weight-converter.html)  
 [Volume converter](https://nigeloosd.github.io/Nigels-Multitool/volume-converter.html)  
+[Quadratic equation solver](https://nigeloosd.github.io/Nigels-Multitool/quadratic-solver.html)  
+
 
 More tools coming soon!
