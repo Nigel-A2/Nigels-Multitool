@@ -7,7 +7,7 @@ function convert() {
     // 1 ounce converted to grams
     const imperial = 28.34952;
 
-	// Values of each unit. Grams are the default // hw: imperial * 1600
+	// Values of each unit. Grams are the default
 	var units = {
 		g: 1,
 		mg: 0.001,

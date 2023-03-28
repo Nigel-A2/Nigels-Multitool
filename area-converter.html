@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Area Unit Converter</title>
+    <link rel="icon" type="image/x-icon" href="./images/multitool.png">
+	<link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+    <link rel="stylesheet" type="text/css" href="./css/area-converter.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+        <a href="https://nigeloosd.github.io/Nigels-Multitool/">Home</a>
+		<h1>Area Unit Converter</h1>
+		<form>
+			<label for="from_unit">From</label>
+			<select id="from_unit">
+                <!--Metric-->
+				<option value="m2">Square meters(m<sup>2</sup>)</option>
+				<option value="cm2">Square centimeters (cm<sup>2</sup>)</option>
+				<option value="dm2">Square decimeters (dm<sup>2</sup>)</option>
+                <option value="mm2">Square millimeters (mm<sup>2</sup>)</option>
+                <option value="km2">Square kilometers (km<sup>2</sup>)</option>
+                <option value="hm2">Hectares</option>
+                <!--Imperial-->
+				<option value="ft2">Square feet (ft<sup>2</sup>)</option>
+                <option value="in2">Square inches (in<sup>2</sup>)</option>
+                <option value="yd2">Square yards (yd<sup>2</sup>)</option>
+                <option value="mi2">Square miles (mi<sup>2</sup>)</option>
+                <option value="rod2">Square rods</option>
+                <option value="acre">Acres</option>
+                <option value="rood">Roods</option>
+			</select>
+			<label for="to_unit">To</label>
+			<select id="to_unit">
+				<!--Metric-->
+				<option value="m2">Square meters(m<sup>2</sup>)</option>
+				<option value="cm2">Square centimeters (cm<sup>2</sup>)</option>
+				<option value="dm2">Square decimeters (dm<sup>2</sup>)</option>
+                <option value="mm2">Square millimeters (mm<sup>2</sup>)</option>
+                <option value="km2">Square kilometers (km<sup>2</sup>)</option>
+                <option value="hm2">Hectares</option>
+                <!--Imperial-->
+				<option value="ft2">Square feet (ft<sup>2</sup>)</option>
+                <option value="in2">Square inches (in<sup>2</sup>)</option>
+                <option value="yd2">Square yards (yd<sup>2</sup>)</option>
+                <option value="mi2">Square miles (mi<sup>2</sup>)</option>
+                <option value="rod2">Square rods</option>
+                <option value="acre">Acres</option>
+                <option value="rood">Roods</option>
+			</select>
+		</form>
+		<input type="number" id="input_value" placeholder="Enter Value">
+		<button type="button" onclick="convert()">Convert</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="./js/area-converter.js"></script>
+</body>
+</html>
