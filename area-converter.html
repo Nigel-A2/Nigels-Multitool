@@ -50,11 +50,9 @@
                 <option value="rood">Roods</option>
 			</select>
 		</form>
-		<input type="number" id="input_value" placeholder="Enter Value">
-		<button type="button" onclick="convert()">Convert</button>
+		<input type="number" id="input_value" placeholder="Enter Value" oninput="convert(this.value)" onchange="convert(this.value)">
 		<div id="result"></div>
 	</div>
-
 	<script src="./js/area-converter.js"></script>
 </body>
 </html>
