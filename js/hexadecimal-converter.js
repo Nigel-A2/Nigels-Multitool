@@ -1,6 +1,6 @@
 // decimal to hexadecimal
 function decimalToHexadecimal(decimal) {
-    // explicit cast as number so it actually converts to hexadecimal
+    // explicit cast as a number so it actually converts to hexadecimal
     return Number(decimal).toString(16).toUpperCase();
   }
   
