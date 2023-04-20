@@ -10,8 +10,9 @@ Introducing my versatile and dynamic web application, equipped with a range of u
 [Area converter](https://nigeloosd.github.io/Nigels-Multitool/area-converter.html)  
 [Volume converter](https://nigeloosd.github.io/Nigels-Multitool/volume-converter.html)  
 [Quadratic equation solver](https://nigeloosd.github.io/Nigels-Multitool/quadratic-solver.html)  
+[Hexadecimal converter](https://nigeloosd.github.io/Nigels-Multitool/hexadecimal-converter.html)  
 
 
-More tools coming soon!  
-- hexadecimal converter  
+
+More tools coming soon!   
 - binary converter
