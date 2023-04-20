@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Number Converter</title>
+  <link rel="stylesheet" type="text/css" href="./css/UnitConverter.css">
+  <link rel="stylesheet" type="text/css" href="./css/number-converter.css">
+  <link rel="icon" type="image/x-icon" href="./images/equation-ico.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <!--Home button-->
+        <a href="https://nigeloosd.github.io/Nigels-Multitool/"><img src="./images/home-ico.png" alt="Home" style="width:48px;height:48px;"></a>
+        <h1>Decimal to Binary Converter</h1>
+        <form>
+			<label for="inputBase">From</label>
+			<select id="inputBase">
+                <option value="decimal">Decimal (Base 10)</option>
+				<option value="binary">Binary (Base 2)</option>
+				<option value="seximal">Seximal (Base 6)</option>
+				<option value="octal">Octal (Base 8)</option>
+                <option value="duodecimal">Duodecimal / Dozenal (Base 12)</option>
+                <option value="hexadecimal">Hexadecimal (base 16)</option>
+				<option value="vigesimal">Vigesimal (base 20)</option>
+			</select>
+			<label for="ouputBase">To</label>
+			<select id="outputBase">
+				<option value="decimal">Decimal (Base 10)</option>
+				<option value="binary">Binary (Base 2)</option>
+				<option value="seximal">Seximal (Base 6)</option>
+				<option value="octal">Octal (Base 8)</option>
+                <option value="duodecimal">Duodecimal / Dozenal (Base 12)</option>
+                <option value="hexadecimal">Hexadecimal (base 16)</option>
+				<option value="vigesimal">Vigesimal (base 20)</option>
+			</select>
+		</form>
+        <p>
+            <label for="inputNumber">Enter a number:</label>
+            <input type="text" placeholder="Enter Value" id="inputNumber" oninput="convertNumbers(this.value)" onchange="convertNumbers(this.value)">
+        </p>
+        <p><span id="result1"></span></p>
+        <p><span id="result2"></span></p>
+        <br />
+    </div>
+    <script src="./js/number-converter.js"></script>
+</body>
+</html>
